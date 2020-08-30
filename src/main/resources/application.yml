@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/persondb
+    username: postgres
+    password: pass123
+    pool-size: 30
